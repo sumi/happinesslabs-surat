@@ -1,4 +1,4 @@
 <?php
-echo "Welcome at api.happinesslabs.com";
+echo "at api.happinesslabs.com";
 ?>
 
