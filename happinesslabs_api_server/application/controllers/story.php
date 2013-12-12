@@ -67,4 +67,8 @@ class story extends CI_Controller {
 	{
 		return $this->mdl_story->save_tags($this->_params);
 	}
+	function get_all_mission()
+	{
+		return $this->mdl_story->get_all_mission($this->_params);
+	}
 }
