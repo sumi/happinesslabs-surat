@@ -2,9 +2,7 @@
 error_reporting(0);
 if($_POST['make_video_name'] == 'make video')
 {
-	$ffpeg_path = 'C:/ffmpeg/bin/';
-	$path = 'C:/wamp/www/ffmpeg';
-	$cmd = $ffpeg_path.'ffmpeg -r 1/2 -i '.$path.'/images/img%03d.jpg -c:v libx264 -vf "fps=25,format=yuv420p" '.$path.'/output/out.mp4 2>&1';
+	$cmd = 'ffmpeg -r 1/2 -i images/img%03d.jpg -c:v libx264 -vf "fps=25,format=yuv420p" output/out.mp4 2>&1';
 	exec($cmd,$output,$return);
 	
 	if($return==0)
