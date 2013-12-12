@@ -4,7 +4,10 @@ if($_POST['make_video_name'] == 'make video')
 {
 	$cmd = 'ffmpeg -r 1/2 -i images/img%03d.jpg -c:v libx264 -vf "fps=25,format=yuv420p" output/out.mp4 2>&1';
 	exec($cmd,$output,$return);
-	
+	echo '<pre>';
+	print_r($output);
+	echo '</pre>';
+	echo $return;
 	if($return==0)
 	{
 		$msg = "video created successfully...";
