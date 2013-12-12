@@ -332,6 +332,18 @@ class mdl_story extends CI_Model
 		
 		return $result;
 	}
+	function get_all_mission($param)
+	{
+		$this->db->select('*');
+		$this->db->from('tbl_story_cat_mission');
+		$query = $this->db->get();
+		
+		$result['msg'] = 'data Found';
+		$result['status'] = 1;
+		$result['status_code'] = 200;
+		$result['mission'] = $query->result_array();
+		return $result;
+	}
 	
 		
 }
