@@ -13,13 +13,13 @@
 </canvas>
 <img width="50" height="50" style="cursor:pointer" onclick="changeImage('1.jpg')" alt="" src="images/1.jpg" />
 <img width="50" height="50" style="cursor:pointer" onclick="changeImage('2.jpg')" alt="" src="images/2.jpg" />
-<img width="50" height="50" style="cursor:pointer" onclick="changeImage('2.jpg')" alt="" src="images/3.jpg" />
+<img width="50" height="50" style="cursor:pointer" onclick="changeImage('3.jpg')" alt="" src="images/3.jpg" />
  <input type="hidden" value="0" name="file_name" id="file_name" />
 
 <script type="text/javascript">
 //START FUNCTION CHANGE IMAGE
 function changeImage(file_name){
-	canvas.clear().renderAll();
+	//canvas.clear().renderAll();
 	document.getElementById("photo_img").src='images/'+file_name;
 	document.getElementById('file_name').value=file_name;
 	document.getElementById("load_dir").value='background/';
