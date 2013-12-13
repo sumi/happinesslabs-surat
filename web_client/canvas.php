@@ -10,7 +10,7 @@
 <body>
 <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
 <img src="images/1.jpg" id="my-image"/>
-<img width="42" height="44" style="cursor:pointer" onclick="changeImage('background_career_1.png')" alt="" src="images/1.jpg" />
+<img width="50" height="50" style="cursor:pointer" onclick="changeImage('1.jpg')" alt="" src="images/1.jpg" />
 
 <script type="text/javascript">
 //START INITIALIZE CANVAS INSTANCE
