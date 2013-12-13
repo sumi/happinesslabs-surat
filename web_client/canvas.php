@@ -5,16 +5,14 @@
 <title>Canvas</title>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+</head>
+<body>
+<canvas id="myCanvas" width="600" height="300" style="border:1px solid #000000;"></canvas>
 <script type="text/javascript">
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.fillStyle="#FF0000";
 ctx.fillRect(0,0,150,75);
 </script>
-</head>
-
-<body>
-
- <canvas id="myCanvas" width="600" height="300" style="border:1px solid #000000;"></canvas> 
 </body>
 </html>
