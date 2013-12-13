@@ -8,8 +8,9 @@
 <script type="text/javascript" src="js/fabric.js"></script>
 </head>
 <body>
-<canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
-<img src="images/1.jpg" id="my-image"/>
+<canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;">
+<img id="photo_img" src="images/1.jpg" class="canvas-img">
+</canvas>
 <img width="42" height="44" style="cursor:pointer" onclick="changeImage('1.jpg')" alt="" src="images/1.jpg" />
 
 <script type="text/javascript">
