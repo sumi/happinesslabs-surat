@@ -11,7 +11,9 @@
 <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;">
 <img id="photo_img" src="images/1.jpg" class="canvas-img">
 </canvas>
-<img width="42" height="44" style="cursor:pointer" onclick="changeImage('1.jpg')" alt="" src="images/1.jpg" />
+<img width="50" height="50" style="cursor:pointer" onclick="changeImage('1.jpg')" alt="" src="images/1.jpg" />
+<img width="50" height="50" style="cursor:pointer" onclick="changeImage('2.jpg')" alt="" src="images/2.jpg" />
+<img width="50" height="50" style="cursor:pointer" onclick="changeImage('2.jpg')" alt="" src="images/3.jpg" />
 
 <script type="text/javascript">
 //START INITIALIZE CANVAS INSTANCE
