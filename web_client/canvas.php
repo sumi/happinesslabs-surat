@@ -10,7 +10,7 @@
 <body>
 <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
 <img src="images/1.jpg" id="my-image"/>
-<img width="50" height="50" style="cursor:pointer" onclick="changeImage('1.jpg')" alt="" src="images/1.jpg" />
+<img width="42" height="44" style="cursor:pointer" onclick="changeImage('1.jpg')" alt="" src="images/1.jpg" />
 
 <script type="text/javascript">
 //START INITIALIZE CANVAS INSTANCE
@@ -48,7 +48,7 @@ function setCategoryVal(catVal,divName){
 	var imgType=document.getElementById('imgType').value;
 	if(imgType=='background'){
 		for(var i=1;i<=6;i++){
-			div_content+='<img src="images/expertboard/background/thumb/background_'+catVal+'_'+i+'.png" width="42" height="44"  alt="" onclick="changeImage(\'background_'+catVal+'_'+i+'.png\')" style="cursor:pointer" />';
+			div_content+='<img src="images/background_'+catVal+'_'+i+'.png" width="42" height="44"  alt="" onclick="changeImage(\'background_'+catVal+'_'+i+'.png\')" style="cursor:pointer" />';
 		}
 	}else{
 		var totalClipart=0;
@@ -69,7 +69,7 @@ function reloadDivContent(divName,imgType){
 	document.getElementById('imgType').value=imgType;
 	if(imgType=='background'){
 		for(var i=1;i<=6;i++){
-			div_content+='<img src="images/expertboard/background/thumb/background_'+category+'_'+i+'.png" width="42" height="44"  alt="" onclick="changeImage(\'background_'+category+'_'+i+'.png\')" style="cursor:pointer" />';
+			div_content+='<img src="images/background_'+category+'_'+i+'.png" width="42" height="44"  alt="" onclick="changeImage(\'background_'+category+'_'+i+'.png\')" style="cursor:pointer" />';
 		}
 	}else{
 		var totalClipart=0;
