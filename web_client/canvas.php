@@ -8,6 +8,7 @@
 <script type="text/javascript" src="js/fabric.js"></script>
 </head>
 <body>
+ <input type="hidden" value="0" name="file_name" id="file_name" />
 <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;">
 <img id="photo_img" src="images/1.jpg" class="canvas-img">
 </canvas>
