@@ -3,11 +3,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Canvas</title>
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery-ui-1.8.16.custom.min.js"></script>
-<script>
-var c=document.getElementById("myCanvas");
-var ctx=c.getContext("2d");
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript">
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
 ctx.fillStyle="#FF0000";
 ctx.fillRect(0,0,150,75);
 </script>
