@@ -7,7 +7,8 @@
 <script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
 </head>
 <body>
-<canvas id="myCanvas" width="600" height="300" style="border:1px solid #000000;"></canvas>
+<canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
+<img src="images/1.jpg" />
 <script type="text/javascript">
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
