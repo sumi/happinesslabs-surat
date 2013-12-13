@@ -11,7 +11,7 @@
 <img src="images/1.jpg" id="my-image"/>
 <script type="text/javascript">
 var canvas = new fabric.Canvas('myCanvas');
-var imgElement = document.getElementById('my-img');
+var imgElement = document.getElementById('my-image');
 var imgInstance = new fabric.Image(imgElement, {
   left: 100,
   top: 100,
