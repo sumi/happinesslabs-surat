@@ -8,12 +8,17 @@
 </head>
 <body>
 <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
-<img src="images/1.jpg" />
+<img src="images/1.jpg" id="my-image"/>
 <script type="text/javascript">
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.fillStyle="#FF0000";
-ctx.fillRect(0,0,150,75);
+var canvas = new fabric.Canvas('myCanvas');
+var imgElement = document.getElementById('my-img');
+var imgInstance = new fabric.Image(imgElement, {
+  left: 100,
+  top: 100,
+  angle: 30,
+  opacity: 0.85
+});
+canvas.add(imgInstance);
 </script>
 </body>
 </html>
