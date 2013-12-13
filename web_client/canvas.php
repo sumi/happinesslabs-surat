@@ -86,14 +86,14 @@ function reloadDivContent(divName,imgType){
 //START FUNCTION CHANGE IMAGE
 function changeImage(file_name){
 	canvas.clear().renderAll();
-	document.getElementById("photo_img").src='images/expertboard/background/'+file_name;
+	document.getElementById("photo_img").src='images/'+file_name;
 	document.getElementById('file_name').value=file_name;
 	document.getElementById("load_dir").value='background/';
 	<!-- Start Fabric JS Code -->
 	canvas.on('object:selected',function(){
 	  document.getElementById('remove_image').style.display='none';
 	});	
-	fabric.Image.fromURL('images/expertboard/background/'+file_name,function(img){
+	fabric.Image.fromURL('images/'+file_name,function(img){
 		img.set({
 		  left:97,
 		  top:97,
