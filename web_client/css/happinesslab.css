@@ -1,0 +1,101 @@
+ul.dayrow {
+}
+.clear {
+	clear:both;
+}
+ul.dayrow li {
+	list-style:none;
+	float:left;
+	width:225px;
+	margin-right:20px;
+}
+ul.dayrow li h1 {
+	font-weight:normal;
+}
+ul.dayrow li .daybox {
+	border:1px solid #999999;
+	box-shadow:0 0 5px #999999;
+	min-height:200px;
+}
+.boxtitle {
+	background:#b1b1b1;
+	padding:10px 5px;
+	color:#fff;
+	font-size:18px;
+}
+.boxsub .boxreward {
+	float:left;
+	text-align:right;
+	color:#F00;
+	width:40px;
+}
+.boxsub .smile {
+	float:left;
+	width:64px;
+	height:64px;
+}
+.boxsub .center {
+	float:left;
+	width:100px;
+	background:#999;
+	color:#fff;
+	padding:10px 5px;
+	height:44px;
+}
+.todo {
+	background:#b1b1b1;
+	padding: 5px;
+	color:#fff;
+	font-size:18px;
+}
+.comments {
+	background:#b1b1b1;
+	padding: 5px;
+	color:#fff;
+	font-size:18px;
+}
+.questions {
+	background:#b1b1b1;
+	padding: 5px;
+	color:#fff;
+	font-size:18px;
+}
+.notes {
+	background:#b1b1b1;
+	padding: 5px;
+	color:#fff;
+	font-size:18px;
+}
+.boximage {
+	padding:15px;
+	position:relative;
+}
+input.imgupload {
+	position:absolute;
+	font-size:0;
+	height:192px;
+	width:192px;
+	top:15px;
+	left:15px;
+	opacity:0;
+	cursor:pointer;
+}
+.imageupload {
+	width:192px;
+	height:192px;
+}
+.imageupload img {
+	max-height: 192px;
+	max-width: 192px;
+}
+ul.link {
+	float:right;
+}
+ul.link li {
+	float:left;
+	padding:10px;
+	list-style:none;
+}
+ul.link li a {
+	font-size:16px;
+}

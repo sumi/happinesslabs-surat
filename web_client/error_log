@@ -1,0 +1,138 @@
+[11-Dec-2013 07:46:34 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 07:48:15 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 07:48:26 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 07:50:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 07:53:00 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 07:54:59 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 07:59:34 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 07:59:47 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 08:00:04 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 08:01:54 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 08:04:35 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 08:04:42 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 08:05:29 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 08:05:41 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 08:06:36 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 08:06:39 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 08:06:43 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Request was not correct' in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php:54
+Stack trace:
+#0 /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php(21): ApiCaller->sendRequest(Array)
+#1 {main}
+  thrown in /home/ishaexpo/public_html/dev/Web_Client/apicaller.php on line 54
+[11-Dec-2013 08:27:29 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 34
+[11-Dec-2013 08:28:02 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 34
+[11-Dec-2013 08:28:09 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 34
+[11-Dec-2013 08:28:29 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 34
+[11-Dec-2013 22:54:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 35
+[11-Dec-2013 22:57:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 36
+[11-Dec-2013 22:57:48 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 37
+[11-Dec-2013 22:57:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 37
+[11-Dec-2013 22:57:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 37
+[11-Dec-2013 22:58:38 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 38
+[11-Dec-2013 22:58:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 38
+[11-Dec-2013 23:00:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 38
+[11-Dec-2013 23:00:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 38
+[11-Dec-2013 23:00:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/mystorylist.php on line 38
+[11-Dec-2013 23:01:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 38
+[11-Dec-2013 23:01:10 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/mystorylist.php on line 38
+[11-Dec-2013 23:01:29 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 38
+[11-Dec-2013 23:01:33 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/mystorylist.php on line 38
+[11-Dec-2013 23:01:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 38
+[11-Dec-2013 23:01:55 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/mystorylist.php on line 38
+[11-Dec-2013 23:15:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 38
+[11-Dec-2013 23:15:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/mystorylist.php on line 38
+[11-Dec-2013 23:55:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 51
+[11-Dec-2013 23:55:06 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 51
+[11-Dec-2013 23:58:00 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ishaexpo/public_html/dev/Web_Client/storylist.php on line 11
+[12-Dec-2013 00:19:24 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:19:33 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:20:06 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:20:28 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:21:23 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 36
+[12-Dec-2013 00:21:46 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 36
+[12-Dec-2013 00:22:00 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 36
+[12-Dec-2013 00:22:59 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 36
+[12-Dec-2013 00:23:01 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 36
+[12-Dec-2013 00:23:07 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:23:30 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:23:36 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:25:58 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:27:40 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:28:09 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:29:22 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:29:28 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 35
+[12-Dec-2013 00:32:33 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 36
+[12-Dec-2013 00:33:00 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 36
+[12-Dec-2013 00:33:06 America/Chicago] PHP Fatal error:  Call to a member function sendRequest() on a non-object in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 36
+[12-Dec-2013 00:42:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/mystorylist.php on line 49
+[12-Dec-2013 00:47:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/mystorylist.php on line 49
+[12-Dec-2013 00:47:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/mystorylist.php on line 49
+[12-Dec-2013 00:48:33 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/mystorylist.php on line 50
+[12-Dec-2013 00:50:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/mystorylist.php on line 50
+[12-Dec-2013 00:50:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/ishaexpo/public_html/dev/Web_Client/mystorylist.php on line 47
+[12-Dec-2013 01:23:41 America/Chicago] PHP Warning:  POST Content-Length of 10078616 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[12-Dec-2013 04:53:28 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/ishaexpo/public_html/dev/Web_Client/createstoryform.php on line 192
