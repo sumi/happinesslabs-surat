@@ -5,6 +5,7 @@
 <title>Canvas</title>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/fabric.js"></script>
 </head>
 <body>
 <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
