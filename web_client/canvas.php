@@ -99,9 +99,6 @@ body {
 <br/><br/>
 <button onclick="return editCanvas();" class="btn primary">Edit Canvas</button>
 <br/><br/>
-<input type="file" name="uploadfile" id="uploadimg" onclick="fileupload();" />
-<div id="previewjpeg"></div>
-<br/><br/>
 <button id="remove_image" title="Delete" onclick="return removeText();" style="display: none;" class="btn primary">Delete Text or ClipArt</button>
    <input type="hidden" value="new_exp_photo" name="photoType" id="photoType" />
     <input type="hidden" value="1" name="pedit_photo_day" id="pedit_photo_day" />
@@ -254,59 +251,6 @@ function editCanvas(){
 		canvas.add(img);
     });
 	return false;
-}
-</script>
-<script type="text/javascript">
-function fileupload()
-{
-	$('#uploadimg').live("change", function()
-	{  
-		var files=$('#files');
-		var oFReader = new FileReader();
-		oFReader.readAsDataURL(this.files[0]);
-		console.log(this.files[0]);
-		oFReader.onload = function (oFREvent) 
-		{           var results = oFREvent.target.result;
-					results=results.replace(/(\r\n|\n|\r)/gm,"");
-					results_array=results.split('##===##');
-					var fname=results_array[0];
-					var upload_file=results_array[1];
-					document.getElementById('file_name').value=fname;
-					document.getElementById('load_dir').value='temp/';
-					/*document.getElementById("photo_img").src=upload_file;
-					canvas.clear().renderAll();*/
-					fabric.Image.fromURL(upload_file,function(img){
-						img.set({
-						  left: fabric.util.getRandomInt(50,190),
-						  top: fabric.util.getRandomInt(50,190),
-						  height:100,
-						  width:100
-						});
-						img.perPixelTargetFind=true;
-						img.targetFindTolerance=4;
-						img.hasControls=img.hasBorders=true;
-						img.on('selected',function(){
-						  document.getElementById('remove_image').style.display='block';
-						});
-						canvas.add(img).setActiveObject(img);
-					});	
-					canvas.on('object:selected',function(){
-					  document.getElementById('remove_image').style.display='none';
-					});
-					canvas.renderAll(); 	
-					canvas.calcOffset();
-					//START UNLINK TEMP DIRECTORY IMAGE
-					$.ajax({
-						type: "POST",
-						url: "save_canvas_image.php",
-						data: {path: upload_file}
-					}).done(function(respond){
-						//alert(respond);
-					});
-				
-			      $('#previewjpeg').html('<img src="'+oFREvent.target.result+'">');
-		};
-	}); 
 }
 </script>
 </div>
