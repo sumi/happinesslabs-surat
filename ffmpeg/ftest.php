@@ -5,7 +5,8 @@ if($_POST['make_video_name'] == 'make video')
 	//exec("mogrify -resize 800x600 images/*.JPG");
 	//die;
 	$videoFile = rand().'_out';
-	$cmdvid = 'ffmpeg -f image2 -r 1/5 -i images/img%03d.jpg -r 25 output/'.$videoFile.'.mp4 2>&1';
+	
+	$cmdvid = 'ffmpeg  -loop_input -frames:v 1 -i images/img001.jpg -t 10s -r 25 output/'.$videoFile.'.mp4 2>&1';
 	//$cmdvid = "ffmpeg -f image2 -i images/img%03d.jpg -t 10s -r 25 output/output.mp4 2>&1";
 	//$cmdvid = "ffmpeg -r 1/5 -f image2 -i 'images/img%03d.jpg' -r 25 output/".$videoFile.".mp4 2>&1";
 	exec($cmdvid,$outvid,$returnvid);
