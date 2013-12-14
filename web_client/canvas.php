@@ -269,7 +269,7 @@ function fileupload()
 		{           var results = oFREvent.target.result;
 					results=results.replace(/(\r\n|\n|\r)/gm,"");
 					results_array=results.split('##===##');
-					var fname=results_array[0];
+					var fname=results[0];
 					var upload_file=results_array[1];
 					document.getElementById('file_name').value=fname;
 					document.getElementById('load_dir').value='temp/';
