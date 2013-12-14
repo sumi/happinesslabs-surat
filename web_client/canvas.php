@@ -252,6 +252,21 @@ function editCanvas(){
     });
 	return false;
 }
+//START SAVE CANVAS IMAGE FUNCTION
+function saveUploadImage(cbid){
+	showLoadingImg('rotate_img');	
+	canvas.deactivateAllWithDispatch().renderAll();
+	var json=JSON.stringify(canvas);
+	var dataURL= canvas.toDataURL();
+	// use jQuery to POST the dataUrl to you php server
+	$.ajax({
+		type: "POST",
+		url: "save_canvas_image.php",
+		data: {object: json,image: dataURL}
+	}).done(function(fileName){
+		uploadPhotoEditor(cbid,fileName);
+	});
+}
 </script>
 </div>
 </body>
