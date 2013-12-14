@@ -25,6 +25,7 @@ body {
   </div>
 </header>
 <div id="main" class="container">
+<?php print_r($_POST); ?>
 <form method="post">
 <canvas id="myCanvas" width="256px" height="256px" style="border:1px solid #000000; float:right;">
 <img id="photo_img" src="images/1.jpg" class="canvas-img" />
