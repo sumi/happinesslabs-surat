@@ -102,7 +102,7 @@ body {
 <br/><br/>
 <button id="remove_image" title="Delete" onclick="return removeText();" style="display: none;" class="btn primary">Delete Text or ClipArt</button>
 <br/><br/>
-   <input type="hidden" value="new_exp_photo" name="photoType" id="photoType" />
+    <input type="hidden" value="new_exp_photo" name="photoType" id="photoType" />
     <input type="hidden" value="1" name="pedit_photo_day" id="pedit_photo_day" />
     <input type="hidden" value="0" name="file_name" id="file_name" />
     <input type="hidden" value="90" name="rotate_degree" id="rotate_degree" />
