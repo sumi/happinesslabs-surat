@@ -109,6 +109,7 @@ body {
     <input type="hidden" name="jsonVal" id="jsonVal" />
 	<input type="hidden" name="category" id="category" value="love"/>
 	<input type="hidden" name="imgType" id="imgType" value="background"/>
+    <button type="submit">Save A Data to Database</button>
 </form>
 <script type="text/javascript">
 //START INITIALIZE CANVAS INSTANCE
